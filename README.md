@@ -3,7 +3,7 @@ Calculo de quincenas
 
 * Con la siguiente función calculamos el número de quincenas entre dos fechas dadas
 
-´´´Swift
+```Swift
 // Fecha inicio
 let inicio: Date = Date()
 
@@ -14,9 +14,9 @@ let fin: Date! = formatter.date(from: "2018/01/15")
 
 let noQuincenas: Int = quincenaConclude(date: fin) - quincenaStart(date: inicio)
 print(noQuincenas)
-´´´
+```
 
-´´´Swift
+```Swift
 
 import UIKit
 
@@ -67,6 +67,5 @@ func quincenaConclude(date: Date) -> Int {
     return year * 12 * 2 + quincena
     
 }
-´´´
-
+```
 
